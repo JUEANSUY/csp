@@ -1,0 +1,26 @@
+# C build outputs
+*.exe
+*.out
+*.o
+*.obj
+*.dll
+*.lib
+*.a
+
+# Debug and temporary files
+*.log
+*.tmp
+*.temp
+
+# Editor and OS files
+.vscode/
+.idea/
+.vs/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+
+# Local test output
+output.txt
+answer.txt

@@ -1,0 +1,11 @@
+* text=auto
+
+*.c text
+*.h text
+*.md text
+*.txt text
+
+*.exe binary
+*.out binary
+*.o binary
+*.obj binary
