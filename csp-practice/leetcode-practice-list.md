@@ -26,8 +26,8 @@
 | 高 | 704 | [Binary Search](https://leetcode.cn/problems/binary-search/) | 二分 | LeetCode 已通过 | `problems/001-lc704-binary-search/` |
 | 高 | 35 | [Search Insert Position](https://leetcode.cn/problems/search-insert-position/) | 二分 | LeetCode 已通过 | `problems/002-lc35-search-insert-position/` |
 | 高 | 27 | [Remove Element](https://leetcode.cn/problems/remove-element/) | 数组/双指针 | LeetCode 已通过 | `problems/003-lc27-remove-element/` |
-| 高 | 283 | [Move Zeroes](https://leetcode.cn/problems/move-zeroes/) | 数组 | 未开始 |  |
-| 高 | 303 | [Range Sum Query - Immutable](https://leetcode.cn/problems/range-sum-query-immutable/) | 前缀和 | 未开始 |  |
+| 高 | 283 | [Move Zeroes](https://leetcode.cn/problems/move-zeroes/) | 数组/双指针 | LeetCode 已通过 | `problems/004-lc283-move-zeroes/` |
+| 高 | 303 | [Range Sum Query - Immutable](https://leetcode.cn/problems/range-sum-query-immutable/) | 前缀和 | 练习中 | `problems/005-lc303-range-sum-query-immutable/` |
 | 中 | 977 | [Squares of a Sorted Array](https://leetcode.cn/problems/squares-of-a-sorted-array/) | 数组/双指针 | 未开始 |  |
 | 中 | 20 | [Valid Parentheses](https://leetcode.cn/problems/valid-parentheses/) | 栈 | 未开始 |  |
 | 中 | 54 | [Spiral Matrix](https://leetcode.cn/problems/spiral-matrix/) | 模拟 | 未开始 |  |

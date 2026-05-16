@@ -41,6 +41,8 @@ LeetCode 备考题单见：[leetcode-practice-list.md](./leetcode-practice-list.
 | 001 | lc704-binary-search | 二分查找 | LeetCode 已通过 | 闭区间二分 |
 | 002 | lc35-search-insert-position | 二分查找 | LeetCode 已通过 | 找不到时返回插入位置 |
 | 003 | lc27-remove-element | 数组/双指针 | LeetCode 已通过 | 保序双指针 |
+| 004 | lc283-move-zeroes | 数组/双指针 | LeetCode 已通过 | 两趟保序写法 |
+| 005 | lc303-range-sum-query-immutable | 前缀和 | 练习中 | 先自己完成前缀和 |
 
 ## 常见复盘点
 
