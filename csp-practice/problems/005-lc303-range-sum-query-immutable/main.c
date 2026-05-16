@@ -1,41 +1,37 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 #define MAXN 100005
 
 typedef struct {
-    int prefix[MAXN];
+    int *prefix;
 } NumArray;
 
-NumArray numArrayCreate(int *nums, int numsSize) {
-    NumArray obj;
-
-    /*
-     * TODO:
-     * 预处理前缀和。
-     *
-     * 提醒：
-     * 1. prefix[i] 可以表示前 i 个数的和。
-     * 2. 这样 nums[left] 到 nums[right] 的和可以快速算出来。
-     * 3. 注意下标要不要整体错开一位。
-     */
-
+NumArray* numArrayCreate(int *nums, int numsSize) {
+    NumArray* obj = (NumArray*)malloc(sizeof(NumArray));
+    obj->prefix = malloc(sizeof(int) * (numsSize + 1));
+    obj->prefix[0] = 0;
+    for (int i = 0; i < numsSize; i++) {
+        obj->prefix[i + 1] = obj->prefix[i] + nums[i];
+    }
     return obj;
 }
 
 int numArraySumRange(NumArray *obj, int left, int right) {
-    /*
-     * TODO:
-     * 使用前缀和返回 nums[left] + ... + nums[right]。
-     */
+    return obj->prefix[right + 1] - obj->prefix[left];
+}
 
-    return 0;
+void numArrayFree(NumArray *obj)
+{
+    free(obj->prefix);
+    free(obj);
 }
 
 int main(void) {
     int n;
     int q;
     int nums[MAXN];
-    NumArray arr;
+    NumArray *arr;
 
     if (scanf("%d", &n) != 1) {
         return 0;
@@ -53,8 +49,9 @@ int main(void) {
         int left;
         int right;
         scanf("%d %d", &left, &right);
-        printf("%d\n", numArraySumRange(&arr, left, right));
+        printf("%d\n", numArraySumRange(arr, left, right));
     }
 
+    numArrayFree(arr);
     return 0;
 }
