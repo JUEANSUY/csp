@@ -40,6 +40,7 @@ LeetCode 备考题单见：[leetcode-practice-list.md](./leetcode-practice-list.
 | 000 | sample-sum | 输入输出 | 已完成 | 用来测试编译运行流程 |
 | 001 | lc704-binary-search | 二分查找 | LeetCode 已通过 | 闭区间二分 |
 | 002 | lc35-search-insert-position | 二分查找 | LeetCode 已通过 | 找不到时返回插入位置 |
+| 003 | lc27-remove-element | 数组/双指针 | LeetCode 已通过 | 保序双指针 |
 
 ## 常见复盘点
 
