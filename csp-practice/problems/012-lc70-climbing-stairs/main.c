@@ -1,17 +1,19 @@
 #include <stdio.h>
 
 int climbStairs(int n) {
-    /*
-     * TODO:
-     * 实现 LeetCode 70 Climbing Stairs。
-     *
-     * 提醒：
-     * 1. 每次可以爬 1 阶或 2 阶。
-     * 2. 到第 n 阶的最后一步，可能来自 n-1，也可能来自 n-2。
-     * 3. 可以先想 dp[n] 和 dp[n-1]、dp[n-2] 的关系。
-     */
-
-    return 0;
+    if (n == 1)
+        return 1;
+    if (n == 2)
+        return 2;
+    int a = 1;
+    int b = 2;
+    for (int i = 3; i <= n; i++)
+    {
+        int c = a + b;
+        a = b;
+        b = c;
+    }
+    return b;
 }
 
 int main(void) {

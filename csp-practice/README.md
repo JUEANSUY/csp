@@ -55,7 +55,9 @@ Get-Content .\csp-practice\problems\000-sample-sum\input.txt | .\csp-practice\pr
 | 009 | lc56-merge-intervals | 排序/区间 | LeetCode 已通过 | 排序后合并重叠区间 |
 | 010 | lc560-subarray-sum-equals-k | 前缀和/哈希 | LeetCode 已通过 | 前缀和 + 开放寻址哈希 |
 | 011 | lc121-best-time-to-buy-and-sell-stock | 数组/贪心 | LeetCode 已通过 | 维护历史最低价 |
-| 012 | lc70-climbing-stairs | 动态规划 | 练习中 | 先自己完成 `climbStairs` 函数 |
+| 012 | lc70-climbing-stairs | 动态规划 | LeetCode 已通过 | 滚动变量优化 |
+| 013 | lc53-maximum-subarray | 动态规划 | LeetCode 已通过 | Kadane：维护以当前位置结尾的最大连续和 |
+| 014 | lc14-longest-common-prefix | 字符串 | LeetCode 已通过 | 截断 `strs[0]` 得到公共前缀 |
 
 ## 常见复盘点
 
