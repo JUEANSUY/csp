@@ -63,7 +63,13 @@ When the user starts a new problem:
 When the user says they finished a problem:
 
 - Read their code.
-- Compile with warnings, for example:
+- Prefer the repository run script:
+
+```powershell
+.\scripts\run.ps1 012-lc70-climbing-stairs
+```
+
+- If the script is not suitable, compile with warnings manually, for example:
 
 ```powershell
 gcc -Wall -Wextra -std=c11 .\csp-practice\problems\XXX\main.c -o .\csp-practice\problems\XXX\main.exe

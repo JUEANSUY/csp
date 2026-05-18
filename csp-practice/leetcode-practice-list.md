@@ -32,7 +32,7 @@
 | 中 | 20 | [Valid Parentheses](https://leetcode.cn/problems/valid-parentheses/) | 栈 | LeetCode 已通过 | `problems/007-lc20-valid-parentheses/` |
 | 中 | 54 | [Spiral Matrix](https://leetcode.cn/problems/spiral-matrix/) | 矩阵/模拟 | LeetCode 已通过 | `problems/008-lc54-spiral-matrix/` |
 | 中 | 56 | [Merge Intervals](https://leetcode.cn/problems/merge-intervals/) | 排序/区间 | LeetCode 已通过 | `problems/009-lc56-merge-intervals/` |
-| 中 | 560 | [Subarray Sum Equals K](https://leetcode.cn/problems/subarray-sum-equals-k/) | 前缀和/哈希 | 未开始 |  |
+| 中 | 560 | [Subarray Sum Equals K](https://leetcode.cn/problems/subarray-sum-equals-k/) | 前缀和/哈希 | LeetCode 已通过 | `problems/010-lc560-subarray-sum-equals-k/` |
 
 ## 第二阶段：CSP 常见题型
 
@@ -40,8 +40,8 @@
 
 | 优先级 | 题号 | 题目 | 类型 | 状态 | 本地记录 |
 |---|---:|---|---|---|---|
-| 高 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/) | 贪心/数组 | 未开始 |  |
-| 高 | 70 | [Climbing Stairs](https://leetcode.cn/problems/climbing-stairs/) | 动态规划 | 未开始 |  |
+| 高 | 121 | [Best Time to Buy and Sell Stock](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/) | 贪心/数组 | LeetCode 已通过 | `problems/011-lc121-best-time-to-buy-and-sell-stock/` |
+| 高 | 70 | [Climbing Stairs](https://leetcode.cn/problems/climbing-stairs/) | 动态规划 | 练习中 | `problems/012-lc70-climbing-stairs/` |
 | 高 | 53 | [Maximum Subarray](https://leetcode.cn/problems/maximum-subarray/) | 动态规划 | 未开始 |  |
 | 中 | 14 | [Longest Common Prefix](https://leetcode.cn/problems/longest-common-prefix/) | 字符串 | 未开始 |  |
 | 中 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 字符串 | 未开始 |  |

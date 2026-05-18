@@ -1,13 +1,20 @@
 # Agent Notes
 
-这个工作区主要用于 CSP 考试备考，使用 C 语言记录刷题代码。
+这个工作区主要用于 CSP / LeetCode 备考，使用 C 语言记录刷题代码。
 
 ## 用户背景
 
 - 用户是大学生，正在准备 CSP 考试。
 - 当前主要使用 C 语言。
-- 编程基础还在提升阶段，解释时应尽量清楚、具体、循序渐进。
+- 编程基础还在提升阶段，解释时应清楚、具体、循序渐进。
 - 回答代码问题时，优先讲清楚输入、输出、数组边界、数据范围和复杂度。
+
+## 刷题辅导方式
+
+- 用户写题时，不要直接替用户修改错误代码。
+- 发现错误时，先指出具体问题，并告诉用户应该怎么改。
+- 优先给提示、边界样例和思路引导，不直接给完整答案。
+- 只有用户明确要求“帮我改代码”或“直接修改文件”时，才编辑题解代码。
 
 ## 项目结构
 
@@ -16,11 +23,12 @@
 ```text
 csp-practice/
   README.md
+  leetcode-practice-list.md
   templates/
     c_template.c
     notes_template.md
   problems/
-    000-sample-sum/
+    001-lc704-binary-search/
       main.c
       notes.md
       input.txt
@@ -29,7 +37,7 @@ csp-practice/
 新增题目时，建议使用：
 
 ```text
-csp-practice/problems/编号-题目名/
+csp-practice/problems/编号-lc题号-题目名/
   main.c
   notes.md
   input.txt
@@ -44,12 +52,34 @@ csp-practice/problems/编号-题目名/
 - 变量名可以短，但关键逻辑要容易看懂。
 - 注释只写关键点，不写太多空泛说明。
 
-## 刷题辅导方式
+## 本地编译运行
 
-- 用户写题时，不要直接替用户修改错误代码。
-- 发现错误时，先指出具体问题，并告诉用户应该怎么改。
-- 优先给提示、边界样例和思路引导，不直接给完整答案。
-- 只有用户明确要求“帮我改代码”或“直接修改文件”时，才编辑题解代码。
+优先使用统一脚本运行题目：
+
+```powershell
+.\scripts\run.ps1 012-lc70-climbing-stairs
+```
+
+脚本会自动编译：
+
+```text
+csp-practice/problems/题目目录/main.c
+```
+
+并使用：
+
+```text
+csp-practice/problems/题目目录/input.txt
+```
+
+作为标准输入。
+
+如果不用脚本，也可以手动运行：
+
+```powershell
+gcc -Wall -Wextra -std=c11 .\csp-practice\problems\题目目录\main.c -o .\csp-practice\problems\题目目录\main.exe
+Get-Content .\csp-practice\problems\题目目录\input.txt | .\csp-practice\problems\题目目录\main.exe
+```
 
 ## 题目记录习惯
 
@@ -62,15 +92,13 @@ csp-practice/problems/编号-题目名/
 - 时间复杂度和空间复杂度。
 - 复盘总结。
 
-## 本地编译运行
+## Git 习惯
 
-当前环境已检测到 `gcc` 可用。
-
-示例编译运行命令：
+- 用户偏好攒几题后统一提交和推送。
+- `*.exe` 等编译产物已被忽略，不应提交。
+- 提交前查看：
 
 ```powershell
-gcc .\csp-practice\problems\000-sample-sum\main.c -o .\csp-practice\problems\000-sample-sum\main.exe
-Get-Content .\csp-practice\problems\000-sample-sum\input.txt | .\csp-practice\problems\000-sample-sum\main.exe
+git status --short --branch
+git status --ignored --short
 ```
-
-以后新题只需要替换对应题目目录路径。
