@@ -3,31 +3,33 @@
 
 #define MAXN 10005
 
-int cmpInterval(const void *a, const void *b) {
-    /*
-     * TODO:
-     * qsort 比较函数。
-     * 提醒：先按区间起点排序。
-     */
+int cmpInterval(const void *a, const void *b)
+{
+    const int *x = (const int *)a;
+    const int *y = (const int *)b;
 
-    return 0;
+    return x[0] - y[0];
 }
 
 int merge(int intervals[MAXN][2], int intervalsSize, int result[MAXN][2]) {
-    /*
-     * TODO:
-     * 实现 LeetCode 56 Merge Intervals 的核心逻辑。
-     *
-     * 提醒：
-     * 1. 先按区间左端点排序。
-     * 2. 维护当前已经合并好的最后一个区间。
-     * 3. 如果新区间和最后一个区间重叠，就更新右端点。
-     * 4. 如果不重叠，就把新区间加入结果。
-     *
-     * 返回合并后的区间个数。
-     */
-
-    return 0;
+    qsort(intervals, intervalsSize, sizeof(intervals[0]), cmpInterval);
+    result[0][0] = intervals[0][0];
+    result[0][1] = intervals[0][1];
+    int count = 1;
+    for (int i = 1; i < intervalsSize; i++)
+    {
+        if(result[count-1][1]>=intervals[i][0]){
+            if(result[count-1][1]<intervals[i][1]){
+                result[count-1][1] = intervals[i][1];
+            }
+        }
+        else{
+            result[count][0] = intervals[i][0];
+            result[count][1] = intervals[i][1];
+            count++;
+        }
+    }
+        return count;
 }
 
 int main(void) {

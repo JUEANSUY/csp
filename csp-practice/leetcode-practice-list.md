@@ -31,7 +31,7 @@
 | 中 | 977 | [Squares of a Sorted Array](https://leetcode.cn/problems/squares-of-a-sorted-array/) | 数组/双指针 | LeetCode 已通过 | `problems/006-lc977-squares-of-a-sorted-array/` |
 | 中 | 20 | [Valid Parentheses](https://leetcode.cn/problems/valid-parentheses/) | 栈 | LeetCode 已通过 | `problems/007-lc20-valid-parentheses/` |
 | 中 | 54 | [Spiral Matrix](https://leetcode.cn/problems/spiral-matrix/) | 矩阵/模拟 | LeetCode 已通过 | `problems/008-lc54-spiral-matrix/` |
-| 中 | 56 | [Merge Intervals](https://leetcode.cn/problems/merge-intervals/) | 排序/区间 | 练习中 | `problems/009-lc56-merge-intervals/` |
+| 中 | 56 | [Merge Intervals](https://leetcode.cn/problems/merge-intervals/) | 排序/区间 | LeetCode 已通过 | `problems/009-lc56-merge-intervals/` |
 | 中 | 560 | [Subarray Sum Equals K](https://leetcode.cn/problems/subarray-sum-equals-k/) | 前缀和/哈希 | 未开始 |  |
 
 ## 第二阶段：CSP 常见题型

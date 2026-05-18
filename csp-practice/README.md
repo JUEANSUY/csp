@@ -46,7 +46,7 @@ LeetCode 备考题单见：[leetcode-practice-list.md](./leetcode-practice-list.
 | 006 | lc977-squares-of-a-sorted-array | 数组/双指针 | LeetCode 已通过 | 双指针从后往前填结果 |
 | 007 | lc20-valid-parentheses | 栈 | LeetCode 已通过 | 栈匹配最近左括号 |
 | 008 | lc54-spiral-matrix | 矩阵/模拟 | LeetCode 已通过 | 四边界螺旋遍历 |
-| 009 | lc56-merge-intervals | 排序/区间 | 练习中 | 先自己完成 merge 函数 |
+| 009 | lc56-merge-intervals | 排序/区间 | LeetCode 已通过 | 排序后合并重叠区间 |
 
 ## 常见复盘点
 
