@@ -62,6 +62,10 @@ Get-Content .\csp-practice\problems\000-sample-sum\input.txt | .\csp-practice\pr
 | 016 | lc415-add-strings | 字符串模拟 | LeetCode 已通过 | 从后往前竖式加法，处理进位和反转 |
 | 017 | lc455-assign-cookies | 贪心/排序 | LeetCode 已通过 | 排序后用双指针贪心匹配 |
 | 018 | lc746-min-cost-climbing-stairs | 动态规划 | LeetCode 已通过 | `dp[i]` 表示到达位置 i 前的最小花费 |
+| 019 | lc48-rotate-image | 矩阵模拟 | LeetCode 已通过 | 转置后每行反转 |
+| 020 | lc55-jump-game | 贪心 | LeetCode 已通过 | 维护当前最远可达位置 |
+| 021 | lc198-house-robber | 动态规划 | LeetCode 已通过 | `dp[i]` 在偷/不偷当前房子中取最大值 |
+| 022 | lc200-number-of-islands | DFS/BFS | LeetCode 已通过 | DFS 原地标记连通陆地 |
 
 ## 常见复盘点
 

@@ -48,9 +48,9 @@
 | 中 | 415 | [Add Strings](https://leetcode.cn/problems/add-strings/) | 字符串模拟 | LeetCode 已通过 | `problems/016-lc415-add-strings/` |
 | 中 | 455 | [Assign Cookies](https://leetcode.cn/problems/assign-cookies/) | 贪心 | LeetCode 已通过 | `problems/017-lc455-assign-cookies/` |
 | 中 | 746 | [Min Cost Climbing Stairs](https://leetcode.cn/problems/min-cost-climbing-stairs/) | 动态规划 | LeetCode 已通过 | `problems/018-lc746-min-cost-climbing-stairs/` |
-| 低 | 48 | [Rotate Image](https://leetcode.cn/problems/rotate-image/) | 矩阵模拟 | 未开始 |  |
-| 低 | 55 | [Jump Game](https://leetcode.cn/problems/jump-game/) | 贪心 | 未开始 |  |
-| 低 | 198 | [House Robber](https://leetcode.cn/problems/house-robber/) | 动态规划 | 未开始 |  |
+| 低 | 48 | [Rotate Image](https://leetcode.cn/problems/rotate-image/) | 矩阵模拟 | LeetCode 已通过 | `problems/019-lc48-rotate-image/` |
+| 低 | 55 | [Jump Game](https://leetcode.cn/problems/jump-game/) | 贪心 | LeetCode 已通过 | `problems/020-lc55-jump-game/` |
+| 低 | 198 | [House Robber](https://leetcode.cn/problems/house-robber/) | 动态规划 | LeetCode 已通过 | `problems/021-lc198-house-robber/` |
 
 ## 第三阶段：冲高分题型
 
@@ -58,7 +58,7 @@
 
 | 优先级 | 题号 | 题目 | 类型 | 状态 | 本地记录 |
 |---|---:|---|---|---|---|
-| 高 | 200 | [Number of Islands](https://leetcode.cn/problems/number-of-islands/) | DFS/BFS | 未开始 |  |
+| 高 | 200 | [Number of Islands](https://leetcode.cn/problems/number-of-islands/) | DFS/BFS | LeetCode 已通过 | `problems/022-lc200-number-of-islands/` |
 | 高 | 695 | [Max Area of Island](https://leetcode.cn/problems/max-area-of-island/) | DFS/BFS | 未开始 |  |
 | 高 | 994 | [Rotting Oranges](https://leetcode.cn/problems/rotting-oranges/) | BFS | 未开始 |  |
 | 中 | 547 | [Number of Provinces](https://leetcode.cn/problems/number-of-provinces/) | 并查集/DFS | 未开始 |  |
