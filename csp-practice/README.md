@@ -58,6 +58,10 @@ Get-Content .\csp-practice\problems\000-sample-sum\input.txt | .\csp-practice\pr
 | 012 | lc70-climbing-stairs | 动态规划 | LeetCode 已通过 | 滚动变量优化 |
 | 013 | lc53-maximum-subarray | 动态规划 | LeetCode 已通过 | Kadane：维护以当前位置结尾的最大连续和 |
 | 014 | lc14-longest-common-prefix | 字符串 | LeetCode 已通过 | 截断 `strs[0]` 得到公共前缀 |
+| 015 | lc28-find-the-index-of-the-first-occurrence-in-a-string | 字符串 | LeetCode 已通过 | 暴力字符串匹配，失败后继续尝试下一个起点 |
+| 016 | lc415-add-strings | 字符串模拟 | LeetCode 已通过 | 从后往前竖式加法，处理进位和反转 |
+| 017 | lc455-assign-cookies | 贪心/排序 | LeetCode 已通过 | 排序后用双指针贪心匹配 |
+| 018 | lc746-min-cost-climbing-stairs | 动态规划 | LeetCode 已通过 | `dp[i]` 表示到达位置 i 前的最小花费 |
 
 ## 常见复盘点
 

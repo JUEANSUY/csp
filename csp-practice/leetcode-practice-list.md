@@ -44,10 +44,10 @@
 | 高 | 70 | [Climbing Stairs](https://leetcode.cn/problems/climbing-stairs/) | 动态规划 | LeetCode 已通过 | `problems/012-lc70-climbing-stairs/` |
 | 高 | 53 | [Maximum Subarray](https://leetcode.cn/problems/maximum-subarray/) | 动态规划 | LeetCode 已通过 | `problems/013-lc53-maximum-subarray/` |
 | 中 | 14 | [Longest Common Prefix](https://leetcode.cn/problems/longest-common-prefix/) | 字符串 | LeetCode 已通过 | `problems/014-lc14-longest-common-prefix/` |
-| 中 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 字符串 | 未开始 |  |
-| 中 | 415 | [Add Strings](https://leetcode.cn/problems/add-strings/) | 字符串模拟 | 未开始 |  |
-| 中 | 455 | [Assign Cookies](https://leetcode.cn/problems/assign-cookies/) | 贪心 | 未开始 |  |
-| 中 | 746 | [Min Cost Climbing Stairs](https://leetcode.cn/problems/min-cost-climbing-stairs/) | 动态规划 | 未开始 |  |
+| 中 | 28 | [Find the Index of the First Occurrence in a String](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 字符串 | LeetCode 已通过 | `problems/015-lc28-find-the-index-of-the-first-occurrence-in-a-string/` |
+| 中 | 415 | [Add Strings](https://leetcode.cn/problems/add-strings/) | 字符串模拟 | LeetCode 已通过 | `problems/016-lc415-add-strings/` |
+| 中 | 455 | [Assign Cookies](https://leetcode.cn/problems/assign-cookies/) | 贪心 | LeetCode 已通过 | `problems/017-lc455-assign-cookies/` |
+| 中 | 746 | [Min Cost Climbing Stairs](https://leetcode.cn/problems/min-cost-climbing-stairs/) | 动态规划 | LeetCode 已通过 | `problems/018-lc746-min-cost-climbing-stairs/` |
 | 低 | 48 | [Rotate Image](https://leetcode.cn/problems/rotate-image/) | 矩阵模拟 | 未开始 |  |
 | 低 | 55 | [Jump Game](https://leetcode.cn/problems/jump-game/) | 贪心 | 未开始 |  |
 | 低 | 198 | [House Robber](https://leetcode.cn/problems/house-robber/) | 动态规划 | 未开始 |  |
