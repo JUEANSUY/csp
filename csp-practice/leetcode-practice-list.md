@@ -59,8 +59,8 @@
 | 优先级 | 题号 | 题目 | 类型 | 状态 | 本地记录 |
 |---|---:|---|---|---|---|
 | 高 | 200 | [Number of Islands](https://leetcode.cn/problems/number-of-islands/) | DFS/BFS | LeetCode 已通过 | `problems/022-lc200-number-of-islands/` |
-| 高 | 695 | [Max Area of Island](https://leetcode.cn/problems/max-area-of-island/) | DFS/BFS | 未开始 |  |
-| 高 | 994 | [Rotting Oranges](https://leetcode.cn/problems/rotting-oranges/) | BFS | 未开始 |  |
+| 高 | 695 | [Max Area of Island](https://leetcode.cn/problems/max-area-of-island/) | DFS/BFS | LeetCode 已通过 | `problems/023-lc695-max-area-of-island/` |
+| 高 | 994 | [Rotting Oranges](https://leetcode.cn/problems/rotting-oranges/) | BFS | LeetCode 已通过 | `problems/024-lc994-rotting-oranges/` |
 | 中 | 547 | [Number of Provinces](https://leetcode.cn/problems/number-of-provinces/) | 并查集/DFS | 未开始 |  |
 | 中 | 207 | [Course Schedule](https://leetcode.cn/problems/course-schedule/) | 拓扑排序 | 未开始 |  |
 | 中 | 215 | [Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | 堆/快速选择 | 未开始 |  |
