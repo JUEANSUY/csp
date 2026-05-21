@@ -72,7 +72,10 @@ Get-Content .\csp-practice\problems\000-sample-sum\input.txt | .\csp-practice\pr
 | 026 | lc207-course-schedule | 拓扑排序/图 | LeetCode 已通过 | 入度 BFS 判断有向图是否有环 |
 | 027 | lc215-kth-largest-element-in-an-array | 快速选择 | LeetCode 已通过 | 三路 Quickselect 处理重复元素 |
 | 028 | lc739-daily-temperatures | 单调栈 | 练习中 | 栈里存等待更高温度的下标 |
-| 029 | lc416-partition-equal-subset-sum | 0/1 背包 DP | 练习中 | 判断能否凑出总和的一半 |
+| 029 | lc416-partition-equal-subset-sum | 0/1 背包 DP | LeetCode 已通过 | 判断能否凑出总和的一半 |
+| 030 | lc322-coin-change | 完全背包 DP | LeetCode 已通过 | 求凑出金额的最少硬币数 |
+| 031 | lc300-longest-increasing-subsequence | 动态规划 | LeetCode 已通过 | 求最长严格递增子序列长度 |
+| 032 | lc84-largest-rectangle-in-histogram | 单调栈 | 练习中 | 求柱状图中的最大矩形面积 |
 
 ## 常见复盘点
 

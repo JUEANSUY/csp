@@ -6,7 +6,7 @@
 - 链接：https://leetcode.cn/problems/partition-equal-subset-sum/
 - 类型：0/1 背包 DP
 - 难度：中等
-- 状态：练习中
+- 状态：LeetCode 已通过
 
 ## 题意
 
@@ -38,12 +38,13 @@
 
 ## 错误记录
 
--
+- `malloc` 需要包含 `<stdlib.h>`。
+- `malloc` 出来的数组使用完后，应该先保存答案，再 `free(dp)`。
 
 ## 复杂度
 
-- 时间复杂度：
-- 空间复杂度：
+- 时间复杂度：O(n * target)，其中 `target = sum / 2`。
+- 空间复杂度：O(target)。
 
 ## 本地输入格式
 
