@@ -61,11 +61,11 @@
 | 高 | 200 | [Number of Islands](https://leetcode.cn/problems/number-of-islands/) | DFS/BFS | LeetCode 已通过 | `problems/022-lc200-number-of-islands/` |
 | 高 | 695 | [Max Area of Island](https://leetcode.cn/problems/max-area-of-island/) | DFS/BFS | LeetCode 已通过 | `problems/023-lc695-max-area-of-island/` |
 | 高 | 994 | [Rotting Oranges](https://leetcode.cn/problems/rotting-oranges/) | BFS | LeetCode 已通过 | `problems/024-lc994-rotting-oranges/` |
-| 中 | 547 | [Number of Provinces](https://leetcode.cn/problems/number-of-provinces/) | 并查集/DFS | 未开始 |  |
-| 中 | 207 | [Course Schedule](https://leetcode.cn/problems/course-schedule/) | 拓扑排序 | 未开始 |  |
-| 中 | 215 | [Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | 堆/快速选择 | 未开始 |  |
-| 中 | 739 | [Daily Temperatures](https://leetcode.cn/problems/daily-temperatures/) | 单调栈 | 未开始 |  |
-| 中 | 416 | [Partition Equal Subset Sum](https://leetcode.cn/problems/partition-equal-subset-sum/) | 背包 DP | 未开始 |  |
+| 中 | 547 | [Number of Provinces](https://leetcode.cn/problems/number-of-provinces/) | 并查集/DFS | LeetCode 已通过 | `problems/025-lc547-number-of-provinces/` |
+| 中 | 207 | [Course Schedule](https://leetcode.cn/problems/course-schedule/) | 拓扑排序 | LeetCode 已通过 | `problems/026-lc207-course-schedule/` |
+| 中 | 215 | [Kth Largest Element in an Array](https://leetcode.cn/problems/kth-largest-element-in-an-array/) | 堆/快速选择 | LeetCode 已通过 | `problems/027-lc215-kth-largest-element-in-an-array/` |
+| 中 | 739 | [Daily Temperatures](https://leetcode.cn/problems/daily-temperatures/) | 单调栈 | LeetCode 已通过 | `problems/028-lc739-daily-temperatures/` |
+| 中 | 416 | [Partition Equal Subset Sum](https://leetcode.cn/problems/partition-equal-subset-sum/) | 背包 DP | 练习中 | `problems/029-lc416-partition-equal-subset-sum/` |
 | 中 | 322 | [Coin Change](https://leetcode.cn/problems/coin-change/) | 动态规划 | 未开始 |  |
 | 中 | 300 | [Longest Increasing Subsequence](https://leetcode.cn/problems/longest-increasing-subsequence/) | 动态规划 | 未开始 |  |
 | 低 | 84 | [Largest Rectangle in Histogram](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | 单调栈 | 未开始 |  |

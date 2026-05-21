@@ -68,6 +68,11 @@ Get-Content .\csp-practice\problems\000-sample-sum\input.txt | .\csp-practice\pr
 | 022 | lc200-number-of-islands | DFS/BFS | LeetCode 已通过 | DFS 原地标记连通陆地 |
 | 023 | lc695-max-area-of-island | DFS/BFS | LeetCode 已通过 | DFS 返回当前岛屿面积 |
 | 024 | lc994-rotting-oranges | BFS | LeetCode 已通过 | 多源 BFS 按分钟扩散 |
+| 025 | lc547-number-of-provinces | DFS/并查集 | 练习中 | 图的连通块数量 |
+| 026 | lc207-course-schedule | 拓扑排序/图 | LeetCode 已通过 | 入度 BFS 判断有向图是否有环 |
+| 027 | lc215-kth-largest-element-in-an-array | 快速选择 | LeetCode 已通过 | 三路 Quickselect 处理重复元素 |
+| 028 | lc739-daily-temperatures | 单调栈 | 练习中 | 栈里存等待更高温度的下标 |
+| 029 | lc416-partition-equal-subset-sum | 0/1 背包 DP | 练习中 | 判断能否凑出总和的一半 |
 
 ## 常见复盘点
 
