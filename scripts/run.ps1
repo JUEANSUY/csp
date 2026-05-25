@@ -6,7 +6,13 @@ param(
 $ErrorActionPreference = "Stop"
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
-$problemDir = Join-Path $repoRoot "csp-practice\problems\$Problem"
+$practiceRoot = Join-Path $repoRoot "csp-practice"
+
+$problemDir = Join-Path $practiceRoot "problems\$Problem"
+if (-not (Test-Path -LiteralPath $problemDir)) {
+    $problemDir = Join-Path $practiceRoot $Problem
+}
+
 $mainFile = Join-Path $problemDir "main.c"
 $inputFile = Join-Path $problemDir "input.txt"
 $exeFile = Join-Path $problemDir "main.exe"

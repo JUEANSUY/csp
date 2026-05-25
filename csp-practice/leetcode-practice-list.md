@@ -72,6 +72,14 @@
 | 低 | 1143 | [Longest Common Subsequence](https://leetcode.cn/problems/longest-common-subsequence/) | 动态规划 | LeetCode 已通过 | `problems/033-lc1143-longest-common-subsequence/` |
 | 低 | 307 | [Range Sum Query - Mutable](https://leetcode.cn/problems/range-sum-query-mutable/) | 树状数组/线段树 | LeetCode 已通过 | `problems/034-lc307-range-sum-query-mutable/` |
 
+## 第四阶段：专题补强
+
+目标：补强 CSP 常见但还没有系统练熟的专题，比如并查集、最短路、堆优化、字符串匹配和更完整的图论。
+
+| 优先级 | 题号 | 题目 | 类型 | 状态 | 本地记录 |
+|---|---:|---|---|---|---|
+| 高 | 1971 | [Find if Path Exists in Graph](https://leetcode.cn/problems/find-if-path-exists-in-graph/) | 并查集/图 | 练习中 | `problems/035-lc1971-find-if-path-exists-in-graph/` |
+
 ## 推荐刷题顺序
 
 先按这个顺序刷前 10 题：

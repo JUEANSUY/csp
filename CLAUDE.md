@@ -24,6 +24,13 @@ Main practice directory:
 csp-practice/
   README.md
   leetcode-practice-list.md
+  csp-real/
+    README.md
+    202603/
+      01-csp202603a-balanced-number/
+        main.c
+        notes.md
+        input.txt
   templates/
     c_template.c
     notes_template.md
@@ -38,6 +45,15 @@ For each new problem, use:
 
 ```text
 csp-practice/problems/NNN-lcXXX-problem-name/
+  main.c
+  notes.md
+  input.txt
+```
+
+For CSP real exam problems, use:
+
+```text
+csp-practice/csp-real/YYYYMM/NN-cspYYYYMMx-problem-name/
   main.c
   notes.md
   input.txt
@@ -67,6 +83,12 @@ When the user says they finished a problem:
 
 ```powershell
 .\scripts\run.ps1 012-lc70-climbing-stairs
+```
+
+- For CSP real exam problems, pass a path relative to `csp-practice/`:
+
+```powershell
+.\scripts\run.ps1 csp-real\202603\01-csp202603a-balanced-number
 ```
 
 - If the script is not suitable, compile with warnings manually, for example:
@@ -106,5 +128,6 @@ git status --ignored --short
 ## Current Study Source of Truth
 
 - Use `csp-practice/leetcode-practice-list.md` as the main problem checklist.
+- Use `csp-practice/csp-real/README.md` and each month README as the CSP real exam checklist.
 - Use each problem's `notes.md` as the review record.
 - Use `git status --short --branch` to see whether work has already been committed or pushed.

@@ -24,6 +24,13 @@
 csp-practice/
   README.md
   leetcode-practice-list.md
+  csp-real/
+    README.md
+    202603/
+      01-csp202603a-balanced-number/
+        main.c
+        notes.md
+        input.txt
   templates/
     c_template.c
     notes_template.md
@@ -43,6 +50,21 @@ csp-practice/problems/编号-lc题号-题目名/
   input.txt
 ```
 
+新增 CSP 真题时，建议使用：
+
+```text
+csp-practice/csp-real/年月/题号-csp年月题号-英文题名/
+  main.c
+  notes.md
+  input.txt
+```
+
+例如：
+
+```text
+csp-practice/csp-real/202603/01-csp202603a-balanced-number/
+```
+
 ## 编码偏好
 
 - 使用 C 语言，不默认改成 C++ 或 Python。
@@ -60,10 +82,17 @@ csp-practice/problems/编号-lc题号-题目名/
 .\scripts\run.ps1 012-lc70-climbing-stairs
 ```
 
+LeetCode 题目可以直接传 `problems/` 下的目录名。CSP 真题传相对 `csp-practice/` 的路径：
+
+```powershell
+.\scripts\run.ps1 csp-real\202603\01-csp202603a-balanced-number
+```
+
 脚本会自动编译：
 
 ```text
 csp-practice/problems/题目目录/main.c
+或 csp-practice/csp-real/真题目录/main.c
 ```
 
 并使用：

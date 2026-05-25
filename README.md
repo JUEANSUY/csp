@@ -12,15 +12,25 @@
 
 - 练习主目录：[csp-practice/](./csp-practice/)
 - LeetCode 题单：[csp-practice/leetcode-practice-list.md](./csp-practice/leetcode-practice-list.md)
-- 题目记录：[csp-practice/problems/](./csp-practice/problems/)
+- LeetCode 题目记录：[csp-practice/problems/](./csp-practice/problems/)
+- CSP 真题记录：[csp-practice/csp-real/](./csp-practice/csp-real/)
 - C 语言模板：[csp-practice/templates/c_template.c](./csp-practice/templates/c_template.c)
 
 ## 每题结构
 
-每道题一个独立目录：
+LeetCode 每道题一个独立目录：
 
 ```text
 csp-practice/problems/001-lc704-binary-search/
+  main.c
+  notes.md
+  input.txt
+```
+
+CSP 真题按考试年月归档：
+
+```text
+csp-practice/csp-real/202603/01-csp202603a-balanced-number/
   main.c
   notes.md
   input.txt
@@ -38,7 +48,13 @@ csp-practice/problems/001-lc704-binary-search/
 .\scripts\run.ps1 012-lc70-climbing-stairs
 ```
 
-脚本会自动查找：
+真题目录也可以用同一个脚本：
+
+```powershell
+.\scripts\run.ps1 csp-real\202603\01-csp202603a-balanced-number
+```
+
+对于 LeetCode 题，脚本会自动查找：
 
 ```text
 csp-practice/problems/012-lc70-climbing-stairs/main.c

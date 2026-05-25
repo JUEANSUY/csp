@@ -4,6 +4,8 @@
 
 LeetCode 备考题单见：[leetcode-practice-list.md](./leetcode-practice-list.md)
 
+CSP 真题记录见：[csp-real/README.md](./csp-real/README.md)
+
 ## 使用方式
 
 每做一道题，就在 `problems/` 下新建一个文件夹：
@@ -22,6 +24,17 @@ problems/
 - `notes.md`：题目思路、错因、复杂度、复盘。
 - `input.txt`：自己手写的测试数据。
 
+真题练习放在 `csp-real/` 下，例如：
+
+```text
+csp-real/
+  202603/
+    01-csp202603a-balanced-number/
+      main.c
+      notes.md
+      input.txt
+```
+
 ## 编译运行
 
 推荐使用根目录脚本：
@@ -32,12 +45,33 @@ problems/
 
 脚本会自动编译对应题目的 `main.c`，并把 `input.txt` 作为输入运行。
 
+LeetCode 题目可以直接传 `problems/` 下的目录名：
+
+```powershell
+.\scripts\run.ps1 034-lc307-range-sum-query-mutable
+```
+
+CSP 真题需要传相对 `csp-practice/` 的路径：
+
+```powershell
+.\scripts\run.ps1 csp-real\202603\01-csp202603a-balanced-number
+```
+
 也可以手动运行：
 
 ```powershell
 gcc -Wall -Wextra -std=c11 .\csp-practice\problems\000-sample-sum\main.c -o .\csp-practice\problems\000-sample-sum\main.exe
 Get-Content .\csp-practice\problems\000-sample-sum\input.txt | .\csp-practice\problems\000-sample-sum\main.exe
 ```
+
+## 目录分工
+
+- `leetcode-practice-list.md`：LeetCode 专题训练总表，适合按算法类型补弱项。
+- `problems/`：LeetCode 每题的代码、样例和复盘。
+- `csp-real/`：CSP 真题套卷练习，按考试年月归档；总进度见 [csp-real/progress.md](./csp-real/progress.md)。
+- `templates/`：通用 C 语言模板和笔记模板。
+
+`leetcode-practice-list.md` 保持在 `csp-practice/` 根目录，不放进 `problems/`，因为它是导航清单，不是某一道题的记录。
 
 ## 刷题记录
 
@@ -78,6 +112,7 @@ Get-Content .\csp-practice\problems\000-sample-sum\input.txt | .\csp-practice\pr
 | 032 | lc84-largest-rectangle-in-histogram | 单调栈 | LeetCode 已通过 | 求柱状图中的最大矩形面积 |
 | 033 | lc1143-longest-common-subsequence | 动态规划 | LeetCode 已通过 | 求两个字符串的最长公共子序列长度 |
 | 034 | lc307-range-sum-query-mutable | 树状数组/线段树 | LeetCode 已通过 | 支持单点更新和区间和查询 |
+| 035 | lc1971-find-if-path-exists-in-graph | 并查集/图 | 练习中 | 判断无向图中两点是否连通 |
 
 ## 常见复盘点
 
