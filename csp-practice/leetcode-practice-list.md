@@ -68,9 +68,9 @@
 | 中 | 416 | [Partition Equal Subset Sum](https://leetcode.cn/problems/partition-equal-subset-sum/) | 背包 DP | LeetCode 已通过 | `problems/029-lc416-partition-equal-subset-sum/` |
 | 中 | 322 | [Coin Change](https://leetcode.cn/problems/coin-change/) | 动态规划 | LeetCode 已通过 | `problems/030-lc322-coin-change/` |
 | 中 | 300 | [Longest Increasing Subsequence](https://leetcode.cn/problems/longest-increasing-subsequence/) | 动态规划 | LeetCode 已通过 | `problems/031-lc300-longest-increasing-subsequence/` |
-| 低 | 84 | [Largest Rectangle in Histogram](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | 单调栈 | 练习中 | `problems/032-lc84-largest-rectangle-in-histogram/` |
-| 低 | 1143 | [Longest Common Subsequence](https://leetcode.cn/problems/longest-common-subsequence/) | 动态规划 | 未开始 |  |
-| 低 | 307 | [Range Sum Query - Mutable](https://leetcode.cn/problems/range-sum-query-mutable/) | 树状数组/线段树 | 未开始 |  |
+| 低 | 84 | [Largest Rectangle in Histogram](https://leetcode.cn/problems/largest-rectangle-in-histogram/) | 单调栈 | LeetCode 已通过 | `problems/032-lc84-largest-rectangle-in-histogram/` |
+| 低 | 1143 | [Longest Common Subsequence](https://leetcode.cn/problems/longest-common-subsequence/) | 动态规划 | LeetCode 已通过 | `problems/033-lc1143-longest-common-subsequence/` |
+| 低 | 307 | [Range Sum Query - Mutable](https://leetcode.cn/problems/range-sum-query-mutable/) | 树状数组/线段树 | LeetCode 已通过 | `problems/034-lc307-range-sum-query-mutable/` |
 
 ## 推荐刷题顺序
 

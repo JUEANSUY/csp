@@ -6,7 +6,7 @@
 - 链接：https://leetcode.cn/problems/largest-rectangle-in-histogram/
 - 类型：单调栈
 - 难度：困难
-- 状态：练习中
+- 状态：LeetCode 已通过
 
 ## 题意
 
@@ -43,12 +43,15 @@
 
 ## 错误记录
 
--
+- 栈里应该存下标，不存高度。需要高度时用 `heights[stack[TOP]]`。
+- 比较当前柱子和栈顶柱子时，不能写成 `heights[i] < stack[TOP]`，因为 `stack[TOP]` 是下标。
+- `heights[heightsSize] = 0` 在本地大数组里可能能跑，但在 LeetCode 中会越界；应该用 `curHeight = (i == heightsSize) ? 0 : heights[i]` 表示虚拟哨兵。
+- 弹栈后如果栈空，说明左边没有更矮柱子，宽度是 `right`；否则宽度是 `right - stack[TOP] - 1`。
 
 ## 复杂度
 
-- 时间复杂度：
-- 空间复杂度：
+- 时间复杂度：O(n)，每个柱子最多入栈一次、出栈一次。
+- 空间复杂度：O(n)。
 
 ## 本地输入格式
 

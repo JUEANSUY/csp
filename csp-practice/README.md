@@ -75,7 +75,9 @@ Get-Content .\csp-practice\problems\000-sample-sum\input.txt | .\csp-practice\pr
 | 029 | lc416-partition-equal-subset-sum | 0/1 背包 DP | LeetCode 已通过 | 判断能否凑出总和的一半 |
 | 030 | lc322-coin-change | 完全背包 DP | LeetCode 已通过 | 求凑出金额的最少硬币数 |
 | 031 | lc300-longest-increasing-subsequence | 动态规划 | LeetCode 已通过 | 求最长严格递增子序列长度 |
-| 032 | lc84-largest-rectangle-in-histogram | 单调栈 | 练习中 | 求柱状图中的最大矩形面积 |
+| 032 | lc84-largest-rectangle-in-histogram | 单调栈 | LeetCode 已通过 | 求柱状图中的最大矩形面积 |
+| 033 | lc1143-longest-common-subsequence | 动态规划 | LeetCode 已通过 | 求两个字符串的最长公共子序列长度 |
+| 034 | lc307-range-sum-query-mutable | 树状数组/线段树 | LeetCode 已通过 | 支持单点更新和区间和查询 |
 
 ## 常见复盘点
 
