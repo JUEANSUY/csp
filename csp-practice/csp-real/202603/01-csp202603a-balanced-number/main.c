@@ -3,7 +3,22 @@
 #define MAXN 105
 
 int isBalanced(int x) {
-    (void)x;
+    int count0 = 0;
+    int count1 = 0;
+    while (x > 0)
+    {
+        int bit = x % 2;
+        if(bit==0){
+            count0++;
+        }
+        if(bit==1){
+            count1++;
+        }
+        x /= 2;
+    }
+    if(count0==count1){
+        return 1;
+    }
     return 0;
 }
 

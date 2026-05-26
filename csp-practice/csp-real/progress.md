@@ -14,7 +14,7 @@
 
 | 套卷 | A | B | C | D | E | 当前建议 |
 |---|---|---|---|---|---|---|
-| [202603](./202603/) | [平衡数](./202603/01-csp202603a-balanced-number/)：练习中 | [机器人项目管理](./202603/02-csp202603b-robot-project-management/)：练习中 | [进程通信](./202603/03-csp202603c-process-communication/)：练习中 | [异或](./202603/04-csp202603d-xor/)：练习中 | [旅游计划 - Easy Ver.](./202603/05-csp202603e-travel-plan-easy/)：练习中 | 先完成 A、B |
+| [202603](./202603/) | [平衡数](./202603/01-csp202603a-balanced-number/)：OJ 100 分 | [机器人项目管理](./202603/02-csp202603b-robot-project-management/)：OJ 100 分 | [进程通信](./202603/03-csp202603c-process-communication/)：练习中 | [异或](./202603/04-csp202603d-xor/)：练习中 | [旅游计划 - Easy Ver.](./202603/05-csp202603e-travel-plan-easy/)：练习中 | 继续 C 题 |
 | [202512](./202512/) | [集合](./202512/01-csp202512a-set/)：未开始 | [数字变换](./202512/02-csp202512b-number-transform/)：未开始 | [图片解码](./202512/03-csp202512c-image-decoding/)：未开始 | [C 形阵](./202512/04-csp202512d-c-shaped-matrix/)：未开始 | [数据抢修](./202512/05-csp202512e-data-repair/)：未开始 | 备用套卷 |
 | [202509](./202509/) | [蒙特卡洛](./202509/01-csp202509a-monte-carlo/)：未开始 | [水印检查](./202509/02-csp202509b-watermark-check/)：未开始 | [HTTP 头信息](./202509/03-csp202509c-http-headers/)：未开始 | [造题计划（上）](./202509/04-csp202509d-problem-setting-plan-up/)：未开始 | [造题计划（下）](./202509/05-csp202509e-problem-setting-plan-down/)：未开始 | 备用套卷 |
 
@@ -27,4 +27,3 @@
 3. `202509` A、B。
 
 第 4、5 题先以读题和拆思路为主，不急着完整 AC。
-

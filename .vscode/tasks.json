@@ -1,0 +1,56 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "build active C file",
+            "command": "gcc",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-Wall",
+                "-Wextra",
+                "-std=c11",
+                "-g",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build the currently active C file for VSCode debugging."
+        },
+        {
+            "type": "cppbuild",
+            "label": "build active C file with input.txt",
+            "command": "gcc",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-Wall",
+                "-Wextra",
+                "-std=c11",
+                "-g",
+                "-DLOCAL_INPUT",
+                "-include",
+                "${workspaceFolder}\\scripts\\vscode_debug_input.h",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Build the active C file and redirect stdin from input.txt during debugging."
+        }
+    ],
+    "version": "2.0.0"
+}

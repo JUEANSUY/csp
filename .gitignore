@@ -13,7 +13,10 @@
 *.temp
 
 # Editor and OS files
-.vscode/
+.vscode/*
+!.vscode/
+!.vscode/tasks.json
+!.vscode/launch.json
 .idea/
 .vs/
 *.swp
