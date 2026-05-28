@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | CSP202603A | 平衡数 | 位运算/模拟 | OJ 100 分 | `01-csp202603a-balanced-number/` |
 | CSP202603B | 机器人项目管理 | 背包/贪心 | OJ 100 分 | `02-csp202603b-robot-project-management/` |
-| CSP202603C | 进程通信 | 待分析 | 练习中 | `03-csp202603c-process-communication/` |
+| CSP202603C | 进程通信 | 模拟/内存区间管理 | OJ 100 分 | `03-csp202603c-process-communication/` |
 | CSP202603D | 异或 | 位运算/待分析 | 练习中 | `04-csp202603d-xor/` |
 | CSP202603E | 旅游计划 - Easy Ver. | 待分析 | 练习中 | `05-csp202603e-travel-plan-easy/` |
 

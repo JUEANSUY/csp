@@ -6,6 +6,7 @@
             "command": "gcc",
             "args": [
                 "-fdiagnostics-color=always",
+                "-D__USE_MINGW_ANSI_STDIO=1",
                 "-Wall",
                 "-Wextra",
                 "-std=c11",
@@ -32,6 +33,7 @@
             "command": "gcc",
             "args": [
                 "-fdiagnostics-color=always",
+                "-D__USE_MINGW_ANSI_STDIO=1",
                 "-Wall",
                 "-Wextra",
                 "-std=c11",

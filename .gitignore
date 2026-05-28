@@ -13,6 +13,8 @@
 *.temp
 
 # Editor and OS files
+AGENTS.md
+CLAUDE.md
 .vscode/*
 !.vscode/
 !.vscode/tasks.json

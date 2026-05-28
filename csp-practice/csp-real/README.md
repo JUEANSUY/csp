@@ -2,6 +2,13 @@
 
 这个目录用来记录 CCF CSP 认证真题练习。
 
+## OJ 入口
+
+- CSP 真题题库：[曙梦 OJ CSP 题库](https://oj.shumeng.tech/p?page=3&q=category%3ACSP)
+- 题目链接通常形如：`https://oj.shumeng.tech/p/CSP202603A`
+
+如果 VPN 打不开，可以尝试关闭 VPN，或把 `oj.shumeng.tech` 设置为直连。
+
 建议每套真题按月份建立目录：
 
 ```text
@@ -39,5 +46,9 @@ csp-real/
 - 题意是否读懂。
 - 输入输出格式。
 - 数据范围。
+- 暴力思路为什么不够。
+- 正解思路和复杂度。
 - 自己的思路。
-- 错误记录和边界样例。
+- 错误记录、边界样例和 OJ 得分。
+
+真题笔记可以直接参考 `templates/csp_notes_template.md` 的结构：先把题意翻译成人话，再写暴力、正解、复杂度和错因。

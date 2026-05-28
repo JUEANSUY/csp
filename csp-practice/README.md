@@ -6,6 +6,8 @@ LeetCode 备考题单见：[leetcode-practice-list.md](./leetcode-practice-list.
 
 CSP 真题记录见：[csp-real/README.md](./csp-real/README.md)
 
+CSP 真题在线练习入口：[曙梦 OJ CSP 题库](https://oj.shumeng.tech/p?page=3&q=category%3ACSP)
+
 ## 使用方式
 
 每做一道题，就在 `problems/` 下新建一个文件夹：
@@ -102,10 +104,10 @@ Get-Content .\csp-practice\problems\000-sample-sum\input.txt | .\csp-practice\pr
 | 022 | lc200-number-of-islands | DFS/BFS | LeetCode 已通过 | DFS 原地标记连通陆地 |
 | 023 | lc695-max-area-of-island | DFS/BFS | LeetCode 已通过 | DFS 返回当前岛屿面积 |
 | 024 | lc994-rotting-oranges | BFS | LeetCode 已通过 | 多源 BFS 按分钟扩散 |
-| 025 | lc547-number-of-provinces | DFS/并查集 | 练习中 | 图的连通块数量 |
+| 025 | lc547-number-of-provinces | DFS/并查集 | LeetCode 已通过 | 图的连通块数量 |
 | 026 | lc207-course-schedule | 拓扑排序/图 | LeetCode 已通过 | 入度 BFS 判断有向图是否有环 |
 | 027 | lc215-kth-largest-element-in-an-array | 快速选择 | LeetCode 已通过 | 三路 Quickselect 处理重复元素 |
-| 028 | lc739-daily-temperatures | 单调栈 | 练习中 | 栈里存等待更高温度的下标 |
+| 028 | lc739-daily-temperatures | 单调栈 | LeetCode 已通过 | 栈里存等待更高温度的下标 |
 | 029 | lc416-partition-equal-subset-sum | 0/1 背包 DP | LeetCode 已通过 | 判断能否凑出总和的一半 |
 | 030 | lc322-coin-change | 完全背包 DP | LeetCode 已通过 | 求凑出金额的最少硬币数 |
 | 031 | lc300-longest-increasing-subsequence | 动态规划 | LeetCode 已通过 | 求最长严格递增子序列长度 |

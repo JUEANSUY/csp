@@ -14,7 +14,9 @@
 - LeetCode 题单：[csp-practice/leetcode-practice-list.md](./csp-practice/leetcode-practice-list.md)
 - LeetCode 题目记录：[csp-practice/problems/](./csp-practice/problems/)
 - CSP 真题记录：[csp-practice/csp-real/](./csp-practice/csp-real/)
+- CSP 真题总进度：[csp-practice/csp-real/progress.md](./csp-practice/csp-real/progress.md)
 - C 语言模板：[csp-practice/templates/c_template.c](./csp-practice/templates/c_template.c)
+- 真题练习 OJ：[曙梦 OJ CSP 题库](https://oj.shumeng.tech/p?page=3&q=category%3ACSP)
 
 ## 每题结构
 

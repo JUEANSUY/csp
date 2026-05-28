@@ -30,7 +30,7 @@ if (-not (Test-Path -LiteralPath $inputFile)) {
 }
 
 Write-Host "Compiling $Problem..."
-gcc -Wall -Wextra -std=c11 $mainFile -o $exeFile
+gcc -D__USE_MINGW_ANSI_STDIO=1 -Wall -Wextra -std=c11 $mainFile -o $exeFile
 
 Write-Host "Running $Problem..."
 Get-Content -LiteralPath $inputFile | & $exeFile
