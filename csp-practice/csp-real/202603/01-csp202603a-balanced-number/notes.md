@@ -4,6 +4,7 @@
 
 - 来源：第 41 次 CCF CSP 认证，CSP202603A
 - 题目：平衡数
+- 链接：https://oj.shumeng.tech/p/CSP202603A
 - 类型：位运算 / 模拟
 - 状态：OJ 100 分
 

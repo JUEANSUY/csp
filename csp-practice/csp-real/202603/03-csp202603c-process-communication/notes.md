@@ -4,6 +4,7 @@
 
 - 来源：第 41 次 CCF CSP 认证，CSP202603C
 - 题目：进程通信
+- 链接：https://oj.shumeng.tech/p/CSP202603C
 - 类型：模拟 / 内存区间管理 / 排序
 - 状态：OJ 100 分
 

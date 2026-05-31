@@ -8,7 +8,7 @@
 |---|---|---|---|---|
 | CSP202512A | 集合 | 集合判断/位运算 | OJ 100 分 | `01-csp202512a-set/` |
 | CSP202512B | 数字变换 | 位运算/反查表 | OJ 100 分 | `02-csp202512b-number-transform/` |
-| CSP202512C | 图片解码 | 待分析 | 未开始 | `03-csp202512c-image-decoding/` |
+| CSP202512C | 图片解码 | 模拟/矩阵变换/懒旋转 | OJ 100 分 | `03-csp202512c-image-decoding/` |
 | CSP202512D | C 形阵 | 待分析 | 未开始 | `04-csp202512d-c-shaped-matrix/` |
 | CSP202512E | 数据抢修 | 待分析 | 未开始 | `05-csp202512e-data-repair/` |
 
